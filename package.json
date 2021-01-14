@@ -1,0 +1,12 @@
+{
+  "name": "rustbot",
+  "version": "1.0.0",
+  "description": "Rust bot to be run on Heroku.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
