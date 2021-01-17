@@ -458,9 +458,9 @@ checksum = "89203f3fba0a3795506acaad8ebce3c80c0af93f994d5a1d7a0b1eeb23271929"
 
 [[package]]
 name = "lichessbot"
-version = "0.1.15"
+version = "0.1.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "08f3b757514c9ac4a0625e05f18fcd4b26ada53ac25bbfc5b0fc6923f3743a65"
+checksum = "4b1b10b60609ee25d3b1d73e847738a70307a7aeb2ffe875a4958597cc66cef7"
 dependencies = [
  "bytes",
  "dotenv",
@@ -891,7 +891,7 @@ dependencies = [
 
 [[package]]
 name = "rustbot"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "env_logger",
  "lichessbot",
@@ -1258,9 +1258,9 @@ checksum = "59547bce71d9c38b83d9c0e92b6066c4253371f15005def0c30d9657f50c7642"
 
 [[package]]
 name = "uciengine"
-version = "0.1.22"
+version = "0.1.24"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2c4f8e36b91707477cea4857157c4f80a8a270ebbb19ed9d82e66fbda76fd076"
+checksum = "8e4bdc693d482483db47c31c11f975bb04d4deda2feb0d25739d520e33e7cea3"
 dependencies = [
  "env_logger",
  "log",
