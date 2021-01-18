@@ -24,7 +24,7 @@ Set environment as follows:
 
 `RUST_BOT_NAME={bot lichess username}`
 
-example
+### Example
 
 `RUST_BOT_NAME=chesshyperbot`
 
@@ -32,7 +32,7 @@ example
 
 `RUST_BOT_ENGINE_NAME={engine executable name}`
 
-examples
+### Examples
 
 **Linux** `RUST_BOT_ENGINE_NAME=./stockfish12`
 
@@ -40,7 +40,7 @@ examples
 
 If no engine name is provided, random moves will be played.
 
-## Uci options ( optional, for Stockfish12 only )
+## Uci options ( optional, for Stockfish 12 only )
 
 ### RUST_BOT_ENGINE_CONTEMPT
 
