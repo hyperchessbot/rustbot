@@ -1,7 +1,7 @@
 {
   "name": "rustbot",
   "version": "0.1.2",
-  "description": "Lichess bot implementing the https://lichess.org/api#tag/Bot API written in Rust.",
+  "description": "Lichess bot implementing the https://lichess.org/api#tag/Bot API, written in Rust.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

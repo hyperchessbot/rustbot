@@ -1,6 +1,6 @@
 # rustbot
 
-Lichess bot implementing the https://lichess.org/api#tag/Bot API written in Rust.
+Lichess bot implementing the https://lichess.org/api#tag/Bot API, written in Rust.
 
 # Run
 
@@ -26,19 +26,23 @@ Set environment as follows:
 
 ### Example
 
-`RUST_BOT_NAME=chesshyperbot`
+`RUST_BOT_NAME=RustBot`
 
 ## Engine name ( optional )
 
 `RUST_BOT_ENGINE_NAME={engine executable name}`
 
+If no engine name is provided, random moves will be played.
+
 ### Examples
 
-**Linux** `RUST_BOT_ENGINE_NAME=./stockfish12`
+#### Linux
 
-**Windows** `RUST_BOT_ENGINE_NAME=stockfish12.exe`
+`RUST_BOT_ENGINE_NAME=./stockfish12`
 
-If no engine name is provided, random moves will be played.
+#### Windows
+
+`RUST_BOT_ENGINE_NAME=stockfish12.exe`
 
 ## Uci options ( optional, for Stockfish 12 only )
 
