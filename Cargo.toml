@@ -3,6 +3,12 @@ name = "rustbot"
 version = "0.1.2"
 authors = ["hyperchessbot <hyperchessbot@gmail.com>"]
 edition = "2018"
+keywords = ["rust", "lichess", "bot"]
+license = "MIT"
+description = "Lichess bot implementing the https://lichess.org/api#tag/Bot API written in Rust."
+repository = "https://github.com/hyperchessbot/rustbot"
+homepage = "https://github.com/hyperchessbot/rustbot#rustbot"
+readme = "README.md"
 
 [dependencies]
 lichessbot = "0.1.18"

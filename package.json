@@ -1,12 +1,12 @@
 {
   "name": "rustbot",
-  "version": "1.0.0",
-  "description": "Rust bot to be run on Heroku.",
+  "version": "0.1.2",
+  "description": "Lichess bot implementing the https://lichess.org/api#tag/Bot API written in Rust.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["rust", "lichess", "bot"],
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }

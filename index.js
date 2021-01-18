@@ -1,0 +1,1 @@
+console.log(`configure the bot as a worker process on Heroku`)
