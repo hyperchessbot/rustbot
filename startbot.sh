@@ -9,6 +9,12 @@ RESTART="${RESTART:-1800}"
 
 echo "restart period $RESTART"
 
+echo "getting games"
+
+wget https://raw.githubusercontent.com/hyperchessbot/pgnrepo/main/rustbot.pgn
+
+ls -l
+
 while true; do
 	echo "starting bot"
 	./rustbot &
