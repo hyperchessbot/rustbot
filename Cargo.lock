@@ -469,9 +469,9 @@ checksum = "89203f3fba0a3795506acaad8ebce3c80c0af93f994d5a1d7a0b1eeb23271929"
 
 [[package]]
 name = "lichessbot"
-version = "0.1.20"
+version = "0.1.21"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1f8a7747c5bd3af0a2b67869ff60ab376f6297e79ea16894df96cb2e6a99c59c"
+checksum = "09a280448079aa5c6354518fb9a61c50e3d257e329fee75780b65cb7e86bcc04"
 dependencies = [
  "bytes",
  "dotenv",
@@ -714,9 +714,9 @@ dependencies = [
 
 [[package]]
 name = "pgnparse"
-version = "0.1.12"
+version = "0.1.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c3934b75d1c99b2a42ee3a932991d2603f96cb87144f86b54b6d8bd2e4dda474"
+checksum = "c17703a29b51ee41af532a14e735b230d8bb0a1aab8b25600e7c2a3312a65178"
 dependencies = [
  "pgn-reader",
  "rand",
