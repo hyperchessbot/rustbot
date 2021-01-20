@@ -177,6 +177,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "envor"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "40150e73818052be91445d85f18a3521a768a0364815bf307d0839db4a4fa008"
+dependencies = [
+ "dotenv",
+ "env_logger",
+ "log",
+]
+
+[[package]]
 name = "fnv"
 version = "1.0.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -458,16 +469,18 @@ checksum = "89203f3fba0a3795506acaad8ebce3c80c0af93f994d5a1d7a0b1eeb23271929"
 
 [[package]]
 name = "lichessbot"
-version = "0.1.19"
+version = "0.1.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e77abbe7f35f0145a2faa473a08e2c0052d1e25fde8d401176c27e56026c9108"
+checksum = "1f8a7747c5bd3af0a2b67869ff60ab376f6297e79ea16894df96cb2e6a99c59c"
 dependencies = [
  "bytes",
  "dotenv",
  "env_logger",
+ "envor",
  "futures-util",
  "licoricedev",
  "log",
+ "pgnparse",
  "rand",
  "shakmaty",
  "tokio",
@@ -509,6 +522,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "fcf3805d4480bb5b86070dcfeb9e2cb2ebc148adb753c5cca5f884d1d65a42b2"
 dependencies = [
  "cfg-if 0.1.10",
+]
+
+[[package]]
+name = "mach"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b823e83b2affd8f40a9ee8c29dbc56404c1e34cd2710921f2801e2cf29527afa"
+dependencies = [
+ "libc",
 ]
 
 [[package]]
@@ -677,6 +699,31 @@ name = "percent-encoding"
 version = "2.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d4fd5641d01c8f18a23da7b6fe29298ff4b55afcccdf78973b24cf3175fee32e"
+
+[[package]]
+name = "pgn-reader"
+version = "0.16.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "eb706a31f5787abc5236a2a1545c2cbf5a6be85a4d12c5cb00cd79cb5d5fa6ea"
+dependencies = [
+ "btoi",
+ "memchr",
+ "shakmaty",
+ "slice-deque",
+]
+
+[[package]]
+name = "pgnparse"
+version = "0.1.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c3934b75d1c99b2a42ee3a932991d2603f96cb87144f86b54b6d8bd2e4dda474"
+dependencies = [
+ "pgn-reader",
+ "rand",
+ "serde",
+ "serde_json",
+ "shakmaty",
+]
 
 [[package]]
 name = "pin-project"
@@ -1034,6 +1081,17 @@ name = "slab"
 version = "0.4.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c111b5bd5695e56cffe5129854aa230b39c93a305372fdbb2668ca2394eea9f8"
+
+[[package]]
+name = "slice-deque"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "31ef6ee280cdefba6d2d0b4b78a84a1c1a3f3a4cec98c2d4231c8bc225de0f25"
+dependencies = [
+ "libc",
+ "mach",
+ "winapi",
+]
 
 [[package]]
 name = "smallvec"
