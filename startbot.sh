@@ -13,19 +13,18 @@ echo "getting games"
 
 wget https://raw.githubusercontent.com/hyperchessbot/pgnrepo/main/rustbot.pgn
 
-ls -l
-
-echo "appending newlines to book"
-
-echo $'\n\n' >> book.pgn
-
-ls -l
+ls -l rustbot.pgn
+ls -l book.pgn
 
 echo "appending games to book"
 
+echo $'\n\n' >> book.pgn
+
+ls -l book.pgn
+
 cat rustbot.pgn >> book.pgn
 
-ls -l
+ls -l book.pgn
 
 while true; do
 	echo "starting bot"
